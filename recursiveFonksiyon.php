@@ -62,8 +62,7 @@ $categories = [
     ]
 ];
 
-function categoryList(array $categories, int $parent = 0) : string
-{
+function categoryList($categories,$parent = 0){
     $html = '<ul>';
     foreach ($categories as $category)
         if ($category['parent'] == $parent):
