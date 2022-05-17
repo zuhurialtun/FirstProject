@@ -62,7 +62,6 @@ $categories = [
     ]
 ];
 
-
 function categoryList(array $categories, int $parent = 0) : string
 {
     $html = '<ul>';
