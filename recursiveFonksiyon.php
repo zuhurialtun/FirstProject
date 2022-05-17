@@ -75,5 +75,4 @@ function categoryList($categories,$parent = 0){
 }
 
 echo categoryList($categories);
-
 ?>
